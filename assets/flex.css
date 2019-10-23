@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(238, 235, 223);
+}
+
+h1 {
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+ul li a, figcaption a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header > img {
+  width: 120px;
+  height: 60px;
+}
+
+.ivoryPic {
+  width: 285px;
+}
+
+.ivoryVideo {
+  width: 285px;
+}
+
+.ingredients-list {
+
+  list-style: square inside;
+}
+
+ol {
+  list-style: decimal inside;
+}
+
+.user_review h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    width: 27px;
+    height: 27px;
+    background-image: url(../assets/stars.png);
+    vertical-align: bottom;
+}
+
+input[type="radio"]:hover {
+  background-position: 30px 60px;
+}
+
+input[type="radio"]:checked {
+  background-position: 30px 30px;
+}
+
+input[type="submit"]:last-child {
+    background-color: rgb(235, 157, 180);
+}
+
+input:last-child:hover {
+    -webkit-filter: brightness(90%);
+}
+
+ol li:nth-of-type(2n) {
+  background-color: rgb(211, 208, 195);
+  margin: 10px 0;
+}
+
+h2 + .user_review {
+    border-top: 1px solid rgb(85, 83, 83);
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+}
+
+nav ul li a {
+    padding: 20px;
+    display: block;
+}
+
+body {
+  margin: 0 auto;
+    width: 60%;
+}
+
+aside {
+    display: inline-block;
+}
+
+.ingredients-list li {
+    margin: 15px 0px;
+}
+
+input[type="text"], select {
+    display: block;
+    width: 175px;
+}
+
+select {
+    margin: 10px 0;
+    width: 180px;
+}
+
+textarea {
+    width: 350px;
+}
+
+label {
+    display: block;
+}
